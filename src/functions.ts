@@ -10,9 +10,9 @@ interface difficult {
 
 function dificult(answer:number,messageError:string):difficult{
   switch(answer){
-    case 1: return {attempts:10,levelDificult:"facil"}
-    case 2: return {attempts:5,levelDificult:"medio"}
-    case 3: return {attempts:3,levelDificult:"dificil"}
+    case 1: return {attempts:10,levelDificult:"Facil"}
+    case 2: return {attempts:5,levelDificult:"Medio"}
+    case 3: return {attempts:3,levelDificult:"Dificil"}
   }
   throw new Error(messageError)
 }
